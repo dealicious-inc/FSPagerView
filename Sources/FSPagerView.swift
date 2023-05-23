@@ -574,7 +574,7 @@ open class FSPagerView: UIView,UICollectionViewDataSource,UICollectionViewDelega
         
     }
     
-    func setContentOfffsetAnimationDuration(with value: CGFloat) {
+    public func setContentOfffsetAnimationDuration(with value: CGFloat) {
         if collectionView.value(forKeyPath: "contentOffsetAnimationDuration") != nil {
             collectionView.setValue(value, forKeyPath: "contentOffsetAnimationDuration")
         }
